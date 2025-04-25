@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0 10px;
+  font-size: 24px;
+}
+
+.container {
+  background: #1e2a47;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.verse-box {
+  margin-bottom: 16px;
+}
+
+.flame-icon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.streak {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.kofi-logo {
+  width: 140px;
+  height: auto;
+  margin-top: 10px;
+  transition: transform 0.2s ease;
+}
+
+.kofi-logo:hover {
+  transform: scale(1.05);
+}
